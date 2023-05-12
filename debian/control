@@ -22,4 +22,4 @@ Architecture: all
 Depends: gnome-shell,
          ${misc:Depends},
          ${shlibs:Depends},
-Description: ArcMenu is an application menu for GNOME Shell, designed to provide a more familiar user experience and workflow. This extension has many features, including various menu layout styles, GNOME search, quick access to system shortcuts, and much more!
+Description: Disable GNOME Shell UI Elements, Change the Behavior and Customize your GNOME Shell Desktop.
