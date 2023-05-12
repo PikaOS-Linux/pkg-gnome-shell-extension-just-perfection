@@ -2,5 +2,14 @@
 export DH_VERBOSE = 1
 export DEB_BUILD_OPTIONS=nocheck
 
+override_dh_translations:
+	make ./po/main.pot
+	dh_translations
+
+override_dh_install:
+	mkdir -p debian/gnome-shell-extension-just-perfection/usr/share/gnome-shell/extensions/
+	cp -rvf src debian/gnome-shell-extension-just-perfection/usr/share/gnome-shell/extensions/just-perfection-desktop@just-perfection 
+
 %:
 	dh $@ --with translations
+
