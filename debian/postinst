@@ -3,4 +3,5 @@
 set -e
 
 glib-compile-schemas /usr/share/glib-2.0/schemas/
+glib-compile-schemas /usr/share/gnome-shell/extensions/just-perfection-desktop@just-perfection/schemas/
 
