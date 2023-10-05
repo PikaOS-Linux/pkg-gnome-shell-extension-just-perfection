@@ -1,7 +1,7 @@
 DEBIAN_FRONTEND=noninteractive
 
 # Clone Upstream
-git clone -b 24.0 https://gitlab.gnome.org/jrahmatzadeh/just-perfection ./gnome-shell-extension-just-perfection
+git clone -b 27.0 https://gitlab.gnome.org/jrahmatzadeh/just-perfection ./gnome-shell-extension-just-perfection
 cp -rvf ./debian ./gnome-shell-extension-just-perfection/
 cd ./gnome-shell-extension-just-perfection
 
